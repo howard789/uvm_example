@@ -1,0 +1,37 @@
+# do {.\ue_sim.do}
+# ./src/uvm
+# ./src/tb
+# src/dut
+# complist.f
+# result
+# ue_tb
+# log
+# 2021May16-20_01
+# work
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 20:01:35 on May 16,2021
+# vlog ./src/uvm/cpp/my_fun_dll.c 
+# -- Compiling DPI/PLI C file ./src/uvm/cpp/my_fun_dll.c
+# End time: 20:01:36 on May 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# prepare simrun folder
+# QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 20:01:36 on May 16,2021
+# vlog -sv -cover bst -timescale=1ns/1ps -l log/comp_2021May16-20_01.log "+incdir+src/dut" -f complist.f 
+# -- Compiling module amplifier
+# ** Note: (vlog-2286) ./src/uvm/ue_pkg.svh(2): Using implicit +incdir+d:/service/questasim64_10.6c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling package ue_pkg_svh_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface ue_interface
+# -- Compiling package ue_tb_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling module ue_tb
+# 
+# Top level modules:
+# 	ue_tb
+# End time: 20:01:37 on May 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+#  {ue_case0_test 2}  {ue_case1_test 1}  {ue_case2_test 0}
+# 
+#               
+# seed:91
